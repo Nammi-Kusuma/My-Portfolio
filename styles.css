@@ -46,7 +46,7 @@ nav {
     color:rgb(211,93,93);
 }
 
-/* @media (max-width: 350px) {
+ /* @media (max-width: 350px) { 
     nav {
         justify-content: space-around;
         padding: 20px 30px;
@@ -56,7 +56,7 @@ nav {
         gap: 0.5rem;
         justify-content: space-between;
     }
-} */
+}  */
 
 .body {
     display: flex;
@@ -141,7 +141,7 @@ nav {
         margin-left: auto;
         margin-right: auto;
         padding: 0px 0px;
-        width: 50%;
+        width: 80%;
     }
 
     .ab .ab-text {
@@ -157,7 +157,7 @@ nav {
 }
 
 .container .pro {
-    height: 450px;
+    height: auto;
     width: 350px;
     display: flex;
     flex-direction: column;
