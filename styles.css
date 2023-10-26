@@ -199,14 +199,24 @@ a {
 
 @media (max-width: 650px) {
     .container {
-        margin: 25px;
+        margin: 20px;
         padding: 10px;
         flex-direction: column;
     }
 
+    .container .pro img {
+        width: 320px;
+    }
+
     .container .pro {
+        height: auto;
+        width: 300px;
         margin-top: 35px;
         margin: 0px 15px;
+    }
+
+    .container .pro p {
+        padding: 5px;
     }
 }
 
@@ -276,7 +286,7 @@ a {
         flex-wrap: wrap;
         margin: 50px 90px;
         padding: 20px;
-        margin-left: 60px;
+        margin-left: 25px;
     }
 
     .contain .links {
